@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.write.writeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center|top"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edit_text_activity_write1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:maxLength="50"
+            android:gravity="center"
+            android:hint="@string/heading"
+            android:textColor="@color/colorDark"
+            android:textSize="25sp"/>
+        <EditText
+            android:id="@+id/edit_text_activity_write2"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:maxLength="10000"
+            android:padding="10dp"
+            android:gravity="top"
+            android:background="@drawable/text"
+            android:hint="@string/text"
+            android:textColor="@color/colorDark"
+            android:layout_marginBottom="40dp"
+            android:textSize="25sp"/>
+
+        <Button
+            android:id="@+id/buttonWrite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/colorDark"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:background="@drawable/button_continue_passwor_first"
+            android:text="@string/activity_write" />
+
+        <TextView
+            android:id="@+id/textViewError"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:textColor="@color/colorRed"
+            android:visibility="gone"
+            android:text="@string/need_write_smth" />
+    </LinearLayout>
+</RelativeLayout>

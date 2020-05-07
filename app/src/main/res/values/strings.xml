@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">diary</string>
+    <string name="password">hasło</string>
+    <string name="write_password">prosze wwieźć hasło</string>
+    <string name="replace_password">prosze powtórzyć hasło</string>
+    <string name="isNotPassword">hasło nie jest prawdziwe</string>
+    <string name="buttonContinuePasswordFirst">przedłużyć</string>
+    <string name="passworDontEquals">hasła nie są sgodny</string>
+    <string name="passworEmpty">hasło nie morze być pusto</string>
+    <string name="forgetPassword">zapomnilem hasło</string>
+    <string name="secretWord">wpisz secretno słowo</string>
+    <string name="secretWordForget">secretno słowo nie jest prawdziwe</string>
+    <string name="forgetPasswordFirst">prosze więźć secretno słowo, gdy ty zapomnisz swoje hasło, ty morzesz przywrócić akces,
+    dzięki secretnomy słowu</string>
+    <string name="title_activity_main_procses">main_procses</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_home">nagrania</string>
+    <string name="menu_gallery">napisać</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="home_second">Home Second</string>
+
+    <string name="activity_write">napisać</string>
+    <string name="activity_all">nagrania</string>
+    <string name="heading">nagłówek</string>
+    <string name="text">tekst</string>
+    <string name="need_write_smth">trzeba coś napisać</string>
+
+    <string name="delete">usunąć </string>
+    <string name="change">przemienić</string>
+</resources>
